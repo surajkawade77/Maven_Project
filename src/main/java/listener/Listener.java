@@ -11,7 +11,6 @@ public class Listener implements ITestListener
 	
 	public void onTestFailure(ITestResult result) 
 	{
-		
 		Reporter.log("TC failed please try again..", true);
 	}
 	public void onTestSuccess(ITestResult result) 
