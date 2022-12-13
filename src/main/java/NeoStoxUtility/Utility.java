@@ -19,14 +19,14 @@ public class Utility
 	//commonly used method
 	//screenshot, wait, scrolling, excel reading
 	
-	public static String readDataFromExcel(int row, int cell) 
+	//public static String readDataFromExcel(int row, int cell) 
 	{
 		File myfile = new File("D:\\My Folder\\Suraj\\NeoStox.xlsx");
 		
-		String value = WorkbookFactory.create(myfile).getSheet("Sheet1").getRow(row).getCell(cell).getStringCellValue();
+		//String value = WorkbookFactory.create(myfile).getSheet("Sheet1").getRow(row).getCell(cell).getStringCellValue();
 				
 		Reporter.log("reading data from excel", true);
-		return value;
+		//return value;
 	}
 	
 	public static void screenshot(WebDriver driver,String screenShotName) throws IOException
