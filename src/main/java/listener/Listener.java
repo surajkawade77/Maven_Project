@@ -6,10 +6,7 @@ import org.testng.Reporter;
 
 public class Listener implements ITestListener
 {
-	
-	
-	
-	
+
 	
 	public void onTestFailure(ITestResult result) 
 	{
